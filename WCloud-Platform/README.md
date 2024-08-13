@@ -1,0 +1,11 @@
+<h1>代码提交规范</h1>
+<li>fix：修改bug</li>
+<li>test：添加或修改测试用例</li>
+<li>feat：新功能(feature)</li>
+<li>docs：文档(documentation)</li>
+<li>chore：构建过程或辅助工具的变动</li>
+<li>style：格式(不影响代码运行的改动)</li>
+<li>refactor：重构(即不是新增功能,也不是修改bug的代码变动)</li>
+<li>build：构建系统或者包依赖更新</li>
+<li>revert：回滚代码</li>
+<li>ci：脚本文件配置</li>
