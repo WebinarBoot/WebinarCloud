@@ -13,6 +13,7 @@
         <module>webinar-common</module>
         <module>webinar-tool</module>
         <module>webinar-service</module>
+        <module>webinar-common/webinar-common-nacos</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
