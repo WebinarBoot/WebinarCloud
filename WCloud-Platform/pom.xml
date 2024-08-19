@@ -14,6 +14,8 @@
         <module>webinar-tool</module>
         <module>webinar-service</module>
         <module>webinar-common/webinar-common-nacos</module>
+        <module>webinar-common/webinar-common-result</module>
+        <module>webinar-common/webinar-common-bom</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -28,7 +30,7 @@
         <spring-cloud-alibaba.version>2023.0.1.2</spring-cloud-alibaba.version>
         <!--spring-framework版本-->
         <spring-framework.version>6.1.11</spring-framework.version>
-
+        <lombok.version>1.18.34</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -65,6 +67,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
